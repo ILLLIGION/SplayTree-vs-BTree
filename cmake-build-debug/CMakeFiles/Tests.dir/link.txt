@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/Tests.dir/source/SplayTree.cpp.o CMakeFiles/Tests.dir/source/BTree.cpp.o CMakeFiles/Tests.dir/tests/main.cpp.o  -o Tests -rdynamic 
