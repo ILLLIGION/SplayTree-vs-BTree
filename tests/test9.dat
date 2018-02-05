@@ -1,0 +1,199 @@
+splay
+insert 5 7
+insert 12 53
+insert 43 23
+insert 52 54
+insert 23 23
+insert 42 63
+insert 63 34
+insert 12 42
+insert 52 78
+insert 68 97
+insert 86 75
+insert 47 56
+insert 75 85
+insert 95 76
+insert 74 64
+insert 36 64
+insert 74 65
+insert 36 74
+insert 25 53
+insert 53 64
+insert 53 65
+insert 75 53
+insert 85 65
+insert 74 53
+insert 23 5645
+insert 63 54
+insert 23 574
+insert 634 753
+insert 6354 234
+insert 5234 546
+insert 634 524
+insert 6345 5324
+insert 978 7576
+insert 856 74
+insert 6345 7745
+insert 684 7845
+insert 7456 7456
+insert 74 7634
+insert 5234 6523
+insert 123 321
+insert 213 312
+insert 132 231
+insert 231 132
+insert 321 123
+insert 312 213
+insert 423 234
+insert 243 324
+insert 53 43
+insert 5346 7234
+insert 523 731
+insert 515 7234
+insert 574 775
+insert 546 786
+insert 595 735
+insert 58 577
+insert 5345 757
+insert 564 7856
+insert 355 774
+insert 2535 774
+insert 235 764
+insert 2355 7692
+insert 239 750
+insert 233 723
+insert 553 794
+insert 522 783
+insert 923 7256
+insert 8379 7234
+insert 9456 7346
+insert 53 753
+insert 692 205
+insert 775 962
+insert 25 763
+insert 734 964
+insert 325 746
+insert 253 84
+insert 845 2354
+insert 52 535
+insert 73 6345
+insert 255 637
+insert 586 4597
+insert 375 7945
+insert 2535 775
+insert 5253 7645
+insert 5753 7543
+insert 5453 7835
+insert 595 8577
+insert 556 776
+insert 585 7658
+insert 595 376
+insert 825 975
+insert 536 786
+insert 2535 7456
+insert 552 763
+insert 955 647
+insert 525 775
+insert 563 7744
+insert 634 35
+insert 5687 768
+insert 586 774
+delete 5
+delete 12
+delete 43
+delete 52
+delete 23
+delete 42
+delete 63
+delete 12
+delete 52
+delete 68
+delete 86
+delete 47
+delete 75
+delete 95
+delete 74
+delete 36
+delete 74
+delete 36
+delete 25
+delete 53
+delete 53
+delete 75
+delete 85
+delete 74
+delete 23
+delete 63
+delete 23
+delete 634
+delete 6354
+delete 5234
+delete 634
+delete 6345
+delete 978
+delete 856
+delete 6345
+delete 684
+delete 7456
+delete 74
+delete 5234
+delete 123
+delete 213
+delete 132
+delete 231
+delete 321
+delete 312
+delete 423
+delete 243
+delete 53
+delete 5346
+delete 523
+delete 515
+delete 574
+delete 546
+delete 595
+delete 58
+delete 5345
+delete 564
+delete 355
+delete 2535
+delete 235
+delete 2355
+delete 239
+delete 233
+delete 553
+delete 522
+delete 923
+delete 8379
+delete 9456
+delete 53
+delete 692
+delete 775
+delete 25
+delete 734
+delete 325
+delete 253
+delete 845
+delete 52
+delete 73
+delete 255
+delete 586
+delete 375
+delete 2535
+delete 5253
+delete 5753
+delete 5453
+delete 595
+delete 556
+delete 585
+delete 595
+delete 825
+delete 536
+delete 2535
+delete 552
+delete 955
+delete 525
+delete 563
+delete 634
+delete 5687
+delete 586

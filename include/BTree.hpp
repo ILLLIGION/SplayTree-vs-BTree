@@ -4,9 +4,9 @@
 #include <iostream>
 #include <vector>
 #include <memory>
+#include <fstream>
 
 #define t 2
-//const int t=2;
 
 struct element
 {
@@ -15,7 +15,7 @@ struct element
     bool flag;
     element();
     element(int key_, int value_);
-    void print_element();
+    void print_element(std::ofstream& out);
     element& operator=(const element& right);
 };
 
@@ -46,9 +46,6 @@ private:
     void repair(BNode *node);
 
 
-    //void Split_Child (BNode *node, int i);
-    //void Insert_Nonfull(BNode *node, int key_, int value_);
-
 public:
     Tree();
     ~Tree();
@@ -61,7 +58,7 @@ public:
     auto min(BNode *node) -> int;
 
 
-    auto print(std::ostream& out, BNode* node, int level) const noexcept -> bool;
+    auto print(std::ofstream& out, BNode* node, int level) const noexcept -> bool;
     auto operator == (const Tree& tree) -> bool;
 };
 

@@ -12,11 +12,11 @@ element& element::operator=(const element& right)
     return *this;
 };
 
-void element::print_element()
+void element::print_element(std::ofstream& out)
 {
     if (flag)
     {
-        std::cout << '[' << key << ' ' << value << ']' << std::endl;
+        out << '[' << key << ' ' << value << ']' << std::endl;
     };
 };
 
@@ -492,7 +492,7 @@ auto Tree::insert(int key_, int value_) -> void
                             ptr=ptr->children[i];
                             break;
                         }
-                        if ((ptr->keys[i+1].flag==0)&&(key_>ptr->keys[i].key))
+                        if ((ptr->keys[i+1].flag==0)&&(key_>=ptr->keys[i].key))
                         {
                             ptr=ptr->children[i+1]; //перенаправляем к самому последнему ребенку,
                                                                                     // если цикл не "сломался"
@@ -591,7 +591,7 @@ auto Tree::operator == (const Tree& tree) -> bool
         return root->equal(tree.root);
 };
 
-auto Tree::print(std::ostream& out, BNode* node, int level) const noexcept -> bool
+auto Tree::print(std::ofstream& out, BNode* node, int level) const noexcept -> bool
 {
     if (node)
     {
@@ -600,8 +600,8 @@ auto Tree::print(std::ostream& out, BNode* node, int level) const noexcept -> bo
 
             if (node->keys[i].flag)
             {
-                for (int i = 0; i < level; i++) std::cout << "-";
-                node->keys[i].print_element();
+                for (int i = 0; i < level; i++) out << "-";
+                node->keys[i].print_element(out);
             }
             print(out, node->children[i], level+1);
         }

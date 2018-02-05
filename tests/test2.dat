@@ -1,0 +1,20 @@
+b
+insert 10 3
+insert 2 5
+insert 12 31
+insert 25 2
+insert 18 23
+insert 6 12
+insert 8 32
+insert 14 12
+insert 29 42
+insert 11 53
+insert 17 12
+insert 38 23
+insert 27 75
+min
+max
+find 7
+print
+delete 11
+print

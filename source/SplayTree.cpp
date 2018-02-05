@@ -288,7 +288,7 @@ auto SplayTree<T>::print(std::ofstream& out, std::shared_ptr<Node> node, int lev
     if (node)
     {
         print(out, node->right_, level + 1);
-        for(int i = 0; i< level; i++) std::cout<<"          ";
+        for(int i = 0; i< level; i++) out << "-";
         out << "[" << node->key << " " << node->value << "]" << std::endl;
         print(out, node->left_, level + 1);
         return true;
