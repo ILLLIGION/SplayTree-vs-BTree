@@ -160,7 +160,7 @@ void Tree::deletenode(BNode *node)
         }
     };
 
-element* Tree::searchKey(int key, BNode *node)
+element* Tree::searchKey(int key, BNode *node) const
 {
         if (node)
         {
@@ -466,7 +466,7 @@ Tree::Tree() : root(nullptr) {};
 
 Tree::~Tree(){ if(root!=nullptr) deletenode(root); };
 
-void Tree::insert(int key_, int value_)
+auto Tree::insert(int key_, int value_) -> void
 {
         if (root==nullptr) {
             root = new BNode;
@@ -516,12 +516,13 @@ void Tree::insert(int key_, int value_)
         }
     };
 
-int Tree::search(int key)
+auto Tree::search(int key) const noexcept -> int*
 {
-    return searchKey(key, this->root)->value;
+    if (searchKey(key, this->root)) return &searchKey(key, this->root)->value;
+    else return nullptr;
 };
 
-void Tree::remove(int key)
+auto Tree::remove(int key) -> void
 {
         BNode *ptr=this->root;
         int position;
@@ -561,7 +562,7 @@ void Tree::remove(int key)
         } else remove(key, ptr);
     };
 
-int Tree::max(BNode *node)
+auto Tree::max(BNode *node) -> int
 {
     for (int i=2*t-1; i>=0; i--)
     {
@@ -573,7 +574,7 @@ int Tree::max(BNode *node)
     }
 }
 
-int Tree::min(BNode *node)
+auto Tree::min(BNode *node) -> int
 {
     for (int i=0; i<2*t; i++)
     {

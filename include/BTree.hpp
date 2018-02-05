@@ -37,7 +37,7 @@ private:
     void sort(BNode *node);
     void restruct(BNode *node);
     void deletenode(BNode *node);
-    element* searchKey(int key, BNode *node);
+    element* searchKey(int key, BNode *node) const;
     void remove(int key, BNode *node);
     void removeFromNode(int key, BNode *node);
     void removeLeaf(int key, BNode *node);
@@ -54,11 +54,11 @@ public:
     ~Tree();
 
 
-    void insert(int key_, int value_);
-    int search(int key);
-    void remove(int key);
-    int max(BNode *node);
-    int min(BNode *node);
+    auto insert(int key_, int value_) -> void;
+    auto search(int key) const noexcept -> int*;
+    auto remove(int key) -> void;
+    auto max(BNode *node) -> int;
+    auto min(BNode *node) -> int;
 
 
     auto print(std::ostream& out, BNode* node, int level) const noexcept -> bool;
