@@ -1,4 +1,7 @@
-//
-// Created by nikita on 05.02.18.
-//
+#include "SplayTree.hpp"
+#include "BTree.hpp"
 
+int main (int argc, char* argv[])
+{
+    return 0;
+}

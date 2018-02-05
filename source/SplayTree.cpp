@@ -1,4 +1,4 @@
-#include "../include/SplayTree.hpp"
+#include "SplayTree.hpp"
 
 template <typename T>
 SplayTree<T>::Node::Node(short key_, T value_) : key(key_), value(value_), left_(nullptr), right_(nullptr),
@@ -283,15 +283,19 @@ auto SplayTree<T>::operator == (const SplayTree& tree) -> bool
 };
 
 template <typename T>
-auto SplayTree<T>::print(std::ostream& out, std::shared_ptr<Node> node, int level) const noexcept -> bool
+auto SplayTree<T>::print(std::ofstream& out, std::shared_ptr<Node> node, int level) const noexcept -> bool
 {
     if (node)
     {
         print(out, node->right_, level + 1);
         for(int i = 0; i< level; i++) std::cout<<"          ";
-        std::cout << '[' << node->key << ' ' << node->value << ']' << std::endl;
+        out << "[" << node->key << " " << node->value << "]" << std::endl;
         print(out, node->left_, level + 1);
         return true;
     }
-    else return false;
+    else
+    {
+        out << std::endl;
+        return false;
+    }
 }
