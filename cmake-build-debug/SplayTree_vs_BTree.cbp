@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SplayTree_vs_BTree"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tests">
+				<Option output="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nikita/GitHub/SplayTree-vs-BTree/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tests/fast">
+				<Option output="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nikita/GitHub/SplayTree-vs-BTree/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SplayTree_vs_BTree">
+				<Option output="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/SplayTree_vs_BTree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nikita/GitHub/SplayTree-vs-BTree/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 SplayTree_vs_BTree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SplayTree_vs_BTree/fast">
+				<Option output="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/SplayTree_vs_BTree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nikita/GitHub/SplayTree-vs-BTree/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 SplayTree_vs_BTree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nikita/GitHub/SplayTree-vs-BTree/include/BTree.hpp">
+			<Option target="Tests"/>
+			<Option target="SplayTree_vs_BTree"/>
+		</Unit>
+		<Unit filename="/home/nikita/GitHub/SplayTree-vs-BTree/include/SplayTree.hpp">
+			<Option target="Tests"/>
+			<Option target="SplayTree_vs_BTree"/>
+		</Unit>
+		<Unit filename="/home/nikita/GitHub/SplayTree-vs-BTree/source/BTree.cpp">
+			<Option target="Tests"/>
+			<Option target="SplayTree_vs_BTree"/>
+		</Unit>
+		<Unit filename="/home/nikita/GitHub/SplayTree-vs-BTree/source/SplayTree.cpp">
+			<Option target="Tests"/>
+			<Option target="SplayTree_vs_BTree"/>
+		</Unit>
+		<Unit filename="/home/nikita/GitHub/SplayTree-vs-BTree/source/main.cpp">
+			<Option target="SplayTree_vs_BTree"/>
+		</Unit>
+		<Unit filename="/home/nikita/GitHub/SplayTree-vs-BTree/tests/catch.hpp">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="/home/nikita/GitHub/SplayTree-vs-BTree/tests/main.cpp">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="/home/nikita/GitHub/SplayTree-vs-BTree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

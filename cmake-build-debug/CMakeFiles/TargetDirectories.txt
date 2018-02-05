@@ -1,0 +1,4 @@
+/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/CMakeFiles/Tests.dir
+/home/nikita/GitHub/SplayTree-vs-BTree/cmake-build-debug/CMakeFiles/SplayTree_vs_BTree.dir

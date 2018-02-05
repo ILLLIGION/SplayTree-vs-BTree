@@ -283,13 +283,14 @@ auto SplayTree<T>::operator == (const SplayTree& tree) -> bool
 };
 
 template <typename T>
-auto SplayTree<T>::print(std::ostream& out, std::shared_ptr<Node> node) const noexcept -> bool
+auto SplayTree<T>::print(std::ostream& out, std::shared_ptr<Node> node, int level) const noexcept -> bool
 {
     if (node)
     {
-        print(out, node->left_);
-        out << "[" << node->key << ' ' << node->value << "]";
-        print(out, node->right_);
+        print(out, node->right_, level + 1);
+        for(int i = 0; i< level; i++) std::cout<<"          ";
+        std::cout << '[' << node->key << ' ' << node->value << ']' << std::endl;
+        print(out, node->left_, level + 1);
         return true;
     }
     else return false;

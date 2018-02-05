@@ -40,7 +40,7 @@ public:
     auto rotate_right(std::shared_ptr<Node> node) -> void;
     auto splay(std::shared_ptr<Node> node) -> void;
     ///Print///
-    auto print(std::ostream& out, std::shared_ptr<Node> node) const noexcept -> bool;
+    auto print(std::ostream& out, std::shared_ptr<Node> node, int level) const noexcept -> bool;
 
     auto operator == (const SplayTree& tree) -> bool;
 
